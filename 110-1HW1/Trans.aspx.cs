@@ -11,9 +11,9 @@ namespace _110_1HW1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            double d_Value = 3.982;
+            double d_Value = 3.982;  //建立d_Value變數為3.982
 
-            double d_Value2 = (d_Value * d_Value) * 0.3025;
+            double d_Value2 = (d_Value * d_Value) * 0.3025; //d_Value 數值相乘後 再乘以0.3025/坪
 
             Response.Write("d_Value = " + "3.982 * 3.982  = " + d_Value2);
         }
