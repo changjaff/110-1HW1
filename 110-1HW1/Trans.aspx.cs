@@ -15,7 +15,7 @@ namespace _110_1HW1
 
             double d_Value2 = (d_Value * d_Value) * 0.3025; //d_Value 數值相乘後 再乘以0.3025/坪
 
-            Response.Write("d_Value = " + "3.982 * 3.982  = " + d_Value2);
+            Response.Write("d_Value = " + "3.982 * 3.982  = " + d_Value2); //印出結果
         }
     }
 }
